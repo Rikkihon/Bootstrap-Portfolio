@@ -78,8 +78,14 @@ body {
   }
   
   nav {
-    float: right;
+    
     margin-top: 25px;
+  }
+
+  #navbar2 {   
+    float: left;
+    margin-top: 25px;
+
   }
   
   nav a {
@@ -214,6 +220,7 @@ body {
   textarea {
     display: block;
     width: 100%;
+    text-align: left
   }
   
   input[type=text],
@@ -223,10 +230,12 @@ body {
     padding: 0 10px;
     font-size: 14px;
     border: 1px solid #ddd;
+    text-align: left
   }
   
   textarea {
     height: 200px;
+    text-align: left
   }
   
   input[type=submit] {
@@ -236,5 +245,6 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+    text-align: left
   }
   
