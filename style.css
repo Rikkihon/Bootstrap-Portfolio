@@ -5,6 +5,16 @@ body {
     background-image: url("./assets/circles-dark.png");
     background-repeat:repeat;
   }
+
+
+  @font-face {
+    font-family: archivo-black;
+    src: url(http://rikki.cubescrawls.com/archivo-black/Archivo-Black/ArchivoBlack-Regular.ttf);
+}
+
+div {
+    font-family: marchivo-black;
+}
   
   * {
     box-sizing: border-box;
@@ -32,7 +42,7 @@ body {
   h2,
   h3,
   p {
-    font-family: Gotham;
+    font-family: archivo-black;
     margin-bottom: 20px;
   }
   
@@ -43,7 +53,7 @@ body {
   h1,
   h2,
   h3 {
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: archivo-black;
     font-weight: 700;
     color: #4aaaa5;
   }
@@ -77,7 +87,7 @@ body {
     float: left;
     width: 250px;
     height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: archivo-black;
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
